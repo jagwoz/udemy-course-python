@@ -3,7 +3,7 @@ import json.decoder
 import requests
 
 if __name__ == "__main__":
-    response = requests.get('http://videokurs.pl')
+    response = requests.get('http://...')
     print(response.status_code)
 
     try:

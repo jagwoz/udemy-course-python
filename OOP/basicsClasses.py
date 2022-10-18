@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+
 class NewClass:
     attr = 5
     id = 0
