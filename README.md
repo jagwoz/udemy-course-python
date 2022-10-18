@@ -1,2 +1,2 @@
-# compendium-of-python-knowledge
-Compendium of python language knowledge enriched with executed courses.
+# udemy-course-python
+title: "Python 3 od Podstaw do Eksperta"
