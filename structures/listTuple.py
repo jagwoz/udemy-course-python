@@ -1,3 +1,6 @@
+import copy as cp
+from collections import Counter
+
 names = ["Peter", "Oscar"]
 
 names[-1] = "Thom"  # last element
@@ -27,9 +30,21 @@ print(names)
 
 names.reverse()
 print(names)
-names.clear()
+# names.clear()
 
 
 myTuple = "Thom", "Andrew"
 my2ndTuple = ("Thom", "Andrew")
+
+list(names)
+names[:]
+names.copy()  # copy
+cp.deepcopy(names)  # deepcopy
+
+new_names = list(filter(lambda x: str(x).startswith("P"), names))
+print(new_names)
+
+counter = Counter(names)
+print(counter)
+
 
