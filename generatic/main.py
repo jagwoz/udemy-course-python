@@ -11,7 +11,6 @@ generator = my_generic_function()
 
 # for i in range(10):
 #    print(next(generator))
-
 # print(list(generator))  # all next
 
 next(generator)

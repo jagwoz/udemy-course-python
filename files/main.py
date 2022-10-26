@@ -7,6 +7,7 @@ if __name__ == "__main__":
     finally:
         file.close()
 
+
     with open('file', 'a') as file:
         file.write('text')
 
